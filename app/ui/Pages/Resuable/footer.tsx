@@ -1,11 +1,18 @@
 'use client';
 import { useRouter } from 'next/navigation';
+import facebook from '../../..//ui/Images/facebookOutlined.png';
+import Image from 'next/image';
 
 export default function Footer() {
 
     const router = useRouter();
     const naviClick = () => {
       let path = `https://www.google.com/maps/place/23+Assembly+Dr,+Tullamarine+VIC+3043/@-37.7109041,144.860026,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad6595ad6d077cd:0x762c3e0db2673f48!8m2!3d-37.7109084!4d144.8626009!16s%2Fg%2F11c14vpwjc?entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D`; 
+      router.push(path);
+    };
+
+    const socialClick = () => {
+      let path = `https://www.facebook.com/PackNSave`; 
       router.push(path);
     };
 
@@ -54,6 +61,13 @@ export default function Footer() {
               <dt className="font-bold text-2xl">
                 Connect With Us
               </dt>
+                <dd>
+                  <button className=" mt-5" onClick={socialClick}>
+                    <Image
+                      src={facebook}
+                      alt="facebook image"/>
+                  </button>
+                </dd>
               <br/>
             </dl>
         </div>

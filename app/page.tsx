@@ -12,16 +12,18 @@ export default function Page() {
       {Header()}
 
       <div className="flex-col">
-        <div className="p-36 bg-sky-500">
-          <strong> Pack N' Save <br/> Wholesale Food Market <br/></strong> 
-          <br/><hr/><br/>
-          <small>A Wholesale outlet for Cake Decorating Supplies, Party Food, Seafood and Bulk frozen foods. We also carry a range of party supplies, paper and packaging products. <br/></small>
-          <br/><br/><br/>
-          <i>Visit our outlet for genuine wholesale prices.</i>
-          <br/><br/>
-          <button className="text-white rounded-lg py-2 px-6 border-white border-solid border-2 font-bold">
-            Shop Now
-          </button>
+        <div className="flex flex-col bg-cover bg-center bg-[url(https://www.packnsave.com.au/wp-content/themes/PackNSaveV2/images/94e5ffdc7e9631ffd9d0ad5019e1b364_IMG_2544.JPG)]">
+            <div className="bg-black/30 p-36">
+              <strong> Pack N' Save <br/> Wholesale Food Market <br/></strong> 
+              <br/><hr/><br/>
+              <small>A Wholesale outlet for Cake Decorating Supplies, Party Food, Seafood and Bulk frozen foods. We also carry a range of party supplies, paper and packaging products. <br/></small>
+              <br/><br/><br/>
+              <i>Visit our outlet for genuine wholesale prices.</i>
+              <br/><br/>
+              <button className="text-white rounded-lg py-2 px-6 border-white border-solid border-2 font-bold">
+                Shop Now
+              </button>
+            </div>
         </div>
 
         {/* Feature Products */}
@@ -38,14 +40,16 @@ export default function Page() {
         </div> 
         
         {/* Everything You Need In The One Place */}
-        <div className="p-36 flex bg-sky-500 flex justify-center">
-          <div className="max-w-6xl text-center">
-            <strong className="flex justify-center"> Everything You Need In The One Place</strong> 
-            <div className="pt-10 flex justify-center">
-              <hr className="border-white w-1/6 self-center"/>
+        <div className="justify-center bg-fixed bg-cover bg-[url(https://www.packnsave.com.au/wp-content/themes/PackNSaveV2/images/3ec9c8b588e642a11be2132b5508c3a7_IMG_2537.JPG)]">
+          <div className="bg-[#ff7601]/70 p-36 py-60 flex justify-center">
+            <div className="max-w-6xl  text-center ">
+              <strong className="flex justify-center"> Everything You Need In The One Place</strong> 
+              <div className="pt-10 flex justify-center">
+                <hr className="border-white w-1/6 self-center"/>
+              </div>
+              <br/><br/>
+              <small>For the most comprehensive range of Party Food, Finger Food and Catering Supplies in Melbourne you need look no further than the  Pack N' Save Wholesale Foodmarket<br/></small>
             </div>
-            <br/><br/>
-            <small>For the most comprehensive range of Party Food, Finger Food and Catering Supplies in Melbourne you need look no further than the  Pack N' Save Wholesale Foodmarket<br/></small>
           </div>
         </div>
 
