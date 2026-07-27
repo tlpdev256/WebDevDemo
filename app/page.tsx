@@ -13,7 +13,7 @@ export default function Page() {
 
       <div className="flex-col">
         <div className="flex flex-col bg-cover bg-center bg-[url(https://www.packnsave.com.au/wp-content/themes/PackNSaveV2/images/94e5ffdc7e9631ffd9d0ad5019e1b364_IMG_2544.JPG)]">
-            <div className="bg-black/30 p-36">
+            <div className="animate-fade-in bg-black/30 p-36">
               <strong> Pack N' Save <br/> Wholesale Food Market <br/></strong> 
               <br/><hr/><br/>
               <small>A Wholesale outlet for Cake Decorating Supplies, Party Food, Seafood and Bulk frozen foods. We also carry a range of party supplies, paper and packaging products. <br/></small>
