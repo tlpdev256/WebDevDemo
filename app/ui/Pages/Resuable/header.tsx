@@ -10,7 +10,7 @@ export default function Header() {
       const [openPanel, setOpenPanel] = useState(false);
 
     return (
-     <header>
+     <header className='z-[1]'>
         <div>
           <button className="material-symbols-outlined size-20" onClick={() => setOpenPanel(true)}>menu</button>
         </div>
