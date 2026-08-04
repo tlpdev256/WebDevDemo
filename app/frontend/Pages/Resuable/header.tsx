@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import PNS from '../../..//ui/Images/PNS.png';
+import PNS from '../../..//frontend/Images/PNS.png';
 import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import React, { useState } from 'react';

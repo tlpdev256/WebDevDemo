@@ -1,8 +1,8 @@
 'use client'
 
 import 'material-symbols';
-import Footer from './ui/Pages/Resuable/footer';
-import Header from './ui/Pages/Resuable/header';
+import Footer from './frontend/Pages/Resuable/footer';
+import Header from './frontend/Pages/Resuable/header';
 
 export default function Page() {
   

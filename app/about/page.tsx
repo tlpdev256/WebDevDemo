@@ -1,10 +1,10 @@
 'use client'
 
 import 'material-symbols';
-import Footer from '../Resuable/footer';
-import Header from '../Resuable/header';
+import Footer from '../frontend/Pages/Resuable/footer';
+import Header from '../frontend/Pages/Resuable/header';
 
-export default async function Page() {
+export default async function About() {
   
   return (
     <main className="flex-col">
