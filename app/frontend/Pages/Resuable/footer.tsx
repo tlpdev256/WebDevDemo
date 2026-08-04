@@ -1,6 +1,6 @@
 'use client';
 import { useRouter } from 'next/navigation';
-import facebook from '../../..//ui/Images/facebookOutlined.png';
+import facebook from '../../..//frontend/Images/facebookOutlined.png';
 import Image from 'next/image';
 
 export default function Footer() {
