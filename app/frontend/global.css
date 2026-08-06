@@ -41,11 +41,24 @@ body{
   }
 }
 
-button {
+button {  
   &:hover{
     background-color: #ff7601;
     color: white;
     transition: 300ms;
+  }
+}
+
+input{
+  border:none;
+  &:hover{
+    outline: none;
+    border:none;
+  }
+  &:focus{
+    outline: none;
+    box-shadow: none;
+    border:none;
   }
 }
 
