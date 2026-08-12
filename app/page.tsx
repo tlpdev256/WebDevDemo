@@ -11,7 +11,7 @@ export default function Page() {
       
       {Header()}
 
-      <div className="flex-col">
+      <div className="flex-col z-[-40]">
         <div className="flex flex-col bg-cover bg-center bg-[url(https://www.packnsave.com.au/wp-content/themes/PackNSaveV2/images/94e5ffdc7e9631ffd9d0ad5019e1b364_IMG_2544.JPG)]">
             <div className="animate-fade-in bg-black/30 p-36">
               <strong> Pack N' Save <br/> Wholesale Food Market <br/></strong> 

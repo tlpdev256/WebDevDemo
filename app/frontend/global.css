@@ -68,6 +68,10 @@ div.slide-pane__content{
     padding: 14px 14px;
 }
 
+.slide-pane__overlay {
+  z-index: 9998 !important;
+}   
+
 .picture-title{
   font-weight: 700;
 }
