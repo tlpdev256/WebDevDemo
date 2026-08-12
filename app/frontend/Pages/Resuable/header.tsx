@@ -5,8 +5,8 @@ import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import SlidingPanePortal from './SlidingPaneOverlay';
 
-// Notes: ensure that logo is moved into the center
 export default function Header() {
 
       const [openPanel, setOpenPanel] = useState(false);
@@ -51,8 +51,8 @@ export default function Header() {
           {/* add cart function */}
         </div>
       </div>
-      <SlidingPane
-        className="website-nav"
+      <SlidingPanePortal
+        className="website-nav z-[9999]"
         overlayClassName="website-nav"
         isOpen={openPanel}
         hideHeader
@@ -106,7 +106,7 @@ export default function Header() {
         </dl>
       </div>
       
-      </SlidingPane>
+      </SlidingPanePortal>
     </header>
 
       

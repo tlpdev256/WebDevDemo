@@ -24,7 +24,7 @@ export default function Products() {
     {Header()}
 
     <div>
-      <text> Hi! This doesn't exist yet! Come back later</text>
+      <input> Hi! This doesn't exist yet! Come back later</input>
     </div>
 
     {Footer()}
