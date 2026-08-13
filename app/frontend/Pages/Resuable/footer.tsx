@@ -22,7 +22,7 @@ export default function Footer() {
 
     return (
      <footer>
-        <div className="pb-10 flex justify-center px-36 text-[#ff7601] text-center">
+        <div className="pb-10 flex justify-center px-36 text-violet-700 text-center">
             <dl className="flex-col max-w-sm basis-0 grow">
               <dt className="font-bold text-2xl">
                 Opening Hours
@@ -42,18 +42,18 @@ export default function Footer() {
                 Contacts
               </dt>
               <br/>
-              <div className="flex gap-1 text-center">
+              <div className="flex text-center">
                 <dd>
                   <button className="material-symbols-outlined size-12 text-white bg-black flex-none" onClick={naviClick}>Location_On</button>
                 </dd>
-                <dd> 23 Assembly Drive Tullamarine, Victoria, Australia, 3043 </dd>
+                <dd className="basis-0 grow self-center"> 12 Real Address </dd>
               </div>
               <br/>
               <div className="flex text-center">
                 <dd>
                 <button className="material-symbols-outlined size-12 text-white bg-black flex-none" onClick={phoneClick}>Call</button>
                 </dd>
-                <dd className="basis-0 grow self-center">+61 (03) 9335 3211</dd>
+                <dd className="basis-0 grow self-center">12 34 5678 9012</dd>
               </div>
             </dl>
           
@@ -72,7 +72,7 @@ export default function Footer() {
             </dl>
         </div>
         <div className="p-10 bg-black flex justify-center">
-          <text>© Copyright Of Pack N Save. All Rights Reserved.</text>
+          <text>© Only to be used as demonstration material. Reference: https://www.packnsave.com.au/ </text>
         </div>
       </footer>
     )

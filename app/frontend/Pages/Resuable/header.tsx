@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
-import PNS from '../../..//frontend/Images/PNS.png';
-import SlidingPane from "react-sliding-pane";
+import Logo from '../../..//frontend/Images/Logo.png';
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
@@ -27,16 +26,13 @@ export default function Header() {
       <div>
         <button className="material-symbols-outlined size-20" onClick={() => setOpenPanel(true)}>menu</button>
       </div>
-      <div className="image-restraint">
-        <Image
-          src={PNS}
-          alt="Pack N Save Logo"
-        />
+      <div className="text-6xl">
+        Generic Wholesale.
       </div>
       <div>
-        <div className="text-[#ff7601] rounded-md bg-white flex flex-row">
+        <div className="text-violet-700 rounded-md bg-white flex flex-row">
           <input
-            className="placeholder:text-[#ff7601] rounded-md"
+            className="placeholder:text-violet-700 rounded-md"
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
