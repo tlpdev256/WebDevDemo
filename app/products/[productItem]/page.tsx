@@ -39,9 +39,9 @@ function ProductDetails({ dataPromise }: { dataPromise: Promise<any> }) {
   };
 
   return (
-    <div className = "text-[#ff7601] text-6xl flex flex-col">
+    <div className = "text-violet-700 text-6xl flex flex-col">
       <text>Price:$ {data.Price.toString()}</text>
-      <input className = "text-[#ff7601] text-6xl flex flex-col" type="number" min="0" max="100" step="1" defaultValue={1}/>   
+      <input className = "text-violet-700 text-6xl flex flex-col" type="number" min="0" max="100" step="1" defaultValue={1}/>   
       <text>Category:</text>
       
     </div>
@@ -58,7 +58,7 @@ export default function Products() {
 
     <div className="flex flex-row">
       <div className="flex flex-col">
-        <text className = "text-[#ff7601] text-6xl">{path}</text>
+        <text className = "text-violet-700 text-6xl">{path}</text>
         <Suspense fallback={<div>Loading...</div>}>        
           <AsyncImage/> 
         </Suspense>

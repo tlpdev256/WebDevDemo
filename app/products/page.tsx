@@ -20,7 +20,7 @@ export default function Products() {
   const router = useRouter();
 
   return (
-    <main className="flex-col">   
+    <main className="flex-col ">   
     {Header()}
 
     <div>
